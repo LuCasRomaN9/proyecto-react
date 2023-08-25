@@ -11,7 +11,7 @@ import {
 const Navbar = () => {
   return (
     <div>
-     <header>
+     
       <nav className='nav'>
         <div className='logo'>
           <img src={img} alt="logo de la pagina" className='img-logo' />
@@ -36,7 +36,7 @@ const Navbar = () => {
         <Cartwidget />
       </nav>
 
-    </header>
+  
     </div>
   );
 };
